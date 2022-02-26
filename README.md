@@ -1,6 +1,6 @@
 <!-- Please update value in the {}  -->
 
-<h1 align="center">Interior Consultant</h1>
+<h1 align="center">My Gallery</h1>
 
 <div align="center">
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://epic-liskov-da9f73.netlify.app/">
+    <a href="https://musing-meninsky-373882.netlify.app/">
       Demo
     </a>
     <span> | </span>
-    <a href = "https://github.com/Ritesh7766/Interior-Consultant">
+    <a href = "https://github.com/Ritesh7766/My-Gallery">
       Solution
     </a>
     <span> | </span>
@@ -35,7 +35,7 @@
 
 ## Overview
 
-![screenshot](https://github.com/Ritesh7766/Interior-Consultant/blob/main/assets/demo.png)
+![screenshot](https://github.com/Ritesh7766/My-Gallery/blob/main/assets/demo.png)
 
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
