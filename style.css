@@ -172,3 +172,12 @@
         font-size: 0.7em;
     }
 }
+
+footer {
+    text-align: center;
+    padding: 10px;
+}
+
+footer * {
+    color: rgb(181, 179, 179);
+}
