@@ -98,7 +98,6 @@
     min-height: 100%;
     flex-shrink: 0;
 }
-/*
 
 #img1, #img5, #img6, #img7 {
     width: 208px;
@@ -107,12 +106,6 @@
 #img2, #img3 {
     width: 435px;
 }
-
-*/
-
-/*
-Hardcoding media queries seem like a chore. 
-This can be automated using js.
 
 @media screen and (max-width: 690px) {
     #img1, #img5, #img6, #img7 {
@@ -144,7 +137,29 @@ This can be automated using js.
     }
 }
 
-*/
+@media screen and (max-width: 500px) {
+    #img1, #img5, #img6, #img7 {
+        width: 127px;
+    }
+    
+    #img2, #img3 {
+        width: 266px;
+    }
+
+    .post {
+        margin: 5px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    #img1, #img5, #img6, #img7 {
+        width: 107px;
+    }
+    
+    #img2, #img3 {
+        width: 224px;
+    }
+}
 
 @media screen and (max-width: 320px) {
     .info-container {
