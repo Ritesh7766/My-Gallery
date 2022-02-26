@@ -1,0 +1,159 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+.container {
+    margin-top: 40px;
+    /*margin: 40px;*/
+}
+
+.partial-center {
+    display: flex;
+    justify-content: center;
+}
+
+.total-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-pic {
+    width: 100px;
+    height: 100px;
+}
+
+.profile-pic img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.gen-info {
+    text-align: center;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+}
+
+.info-container {
+    margin: 10px;
+    width: 90px;
+    height: 70px;
+    text-align: center;
+    background-color: rgb(238, 235, 235);
+    border-radius: 10px;
+    flex-direction: column;
+}
+
+.gallery {
+    width: fit-content;
+}
+
+.smol {
+    font-size: 0.9em;
+}
+
+.light-txt {
+    color: rgb(153, 153, 153);
+}
+
+.medium-txt {
+    color: rgb(79, 77, 77);
+}
+
+.row1 {
+    display: flex;
+    justify-content: center;
+}
+
+.gallery img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.post {
+    margin: 10px;
+}
+
+.row2 {
+    display: flex;
+    justify-content: center;
+}
+
+.sub-row2 {
+    display: flex;
+}
+
+.post {
+    overflow: hidden;
+}
+
+.post img {
+    min-width: 100%;
+    min-height: 100%;
+    flex-shrink: 0;
+}
+/*
+
+#img1, #img5, #img6, #img7 {
+    width: 208px;
+}
+
+#img2, #img3 {
+    width: 435px;
+}
+
+*/
+
+/*
+Hardcoding media queries seem like a chore. 
+This can be automated using js.
+
+@media screen and (max-width: 690px) {
+    #img1, #img5, #img6, #img7 {
+        width: 186px;
+    }
+    
+    #img2, #img3 {
+        width: 392px;
+    }
+}
+
+@media screen and (max-width: 625px) {
+    #img1, #img5, #img6, #img7 {
+        width: 165px;
+    }
+    
+    #img2, #img3 {
+        width: 350px;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    #img1, #img5, #img6, #img7 {
+        width: 145px;
+    }
+    
+    #img2, #img3 {
+        width: 309px;
+    }
+}
+
+*/
+
+@media screen and (max-width: 320px) {
+    .info-container {
+        height: 45px;
+        width: 65px;
+        margin: 5px;
+    }
+
+    .smol {
+        font-size: 0.7em;
+    }
+}
